@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HyeJung's Portfolio</title>
+    <meta name="description" content="this is My first Portfolio">
+    <meta name="author" content="HyeJung">
+    <!-- 탭에 보여지는 아이콘 세팅 -->
+    <link rel="icon" type="image/png" href="imgs/projects/icon-removebg.png">
+    <script src="https://kit.fontawesome.com/082a4accbb.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer ></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="navbar__logo">
+            <img src="imgs/icon-removebg-white.png" alt="fav" class="fav" width="25px">
+            <a href="#">HyeJung</a>
+        </div>
+        <div class="navbar__menu">
+            <ul class="navbar__menu">
+                <li class="navbar__menu__item">Home</li>
+                <li class="navbar__menu__item">About</li>
+                <li class="navbar__menu__item">Skills</li>
+                <li class="navbar__menu__item">My work</li>
+                <li class="navbar__menu__item">Testimonial</li>
+                <li class="navbar__menu__item">Contact</li>
+            </ul>
+        </div>
+
+        <!-- Toggle button -->
+        <button class="navbar__toggle-btn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+        <img src="imgs/hyejung.jpg" alt="Hyejung's profile photo" class="home__avatar">
+        <h1 class="home__title">Hello, <br/>I'm HyeJung</h1>
+        <h2 class="home__description">풀스택 개발자가 되기 위한 한걸음</h2>
+        <button class="home__contact">CONTACT ME</button>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section section__container">
+        <h1>About Me</h1>
+        <p>아직 복수전공 1년차이지만 이번 4학년 1학기, 즉 한학기동안 최선을 다해서 여러 프로젝트들을 경험해 볼 것이며, 실력을 키워 2학기 ICT인턴십에 합격하는 것을 목표로 하고 있습니다. 최소한 서류전형은 붙는 것을 목표로 하고 있으며 2학기 인턴십 준비는 한학기 내내 하면서 실력을 기를 예정입니다. 지금은 프론트엔드쪽만 가능하지만 풀스택 개발자를 목표로 하고 있는 만큼 백엔드쪽 실력도 기르고 싶습니다.</p>
+        <div class="about__majors">
+            <div class="major">
+               <div class="major__icon">
+                   <i class="fa-brands fa-html5"></i>
+               </div> 
+               <h2 class="major__title">HTML</h2>
+               <div class="major__description">구조를 생각하면서 로직을 짤 수 있습니다.</div>
+            </div>
+            <div class="mjor">
+                <div class="major__icon">
+                    <i class="fa-brands fa-css3"></i>
+                </div> 
+                <h2 class="major__title">CSS</h2>
+                <div class="major__description">부트스트랩 없이도 스스로 구현해낼 수 있는 <br/>실력을 갖도록 노력중입니다.</div>
+             </div>
+             <div class="mjor">
+                <div class="major__icon">
+                    <i class="fa-brands fa-js-square"></i>
+                </div> 
+                <h2 class="major__title">JavaScript</h2>
+                <div class="major__description">단순 UI뿐만 아니라 동적인 요소까지 담으려 <br/>노력중입니다.</div>
+             </div>
+        </div>
+        <div class="about__school">
+            <div class="school">
+                <img src="imgs/dju.png" alt="dju_logo" class="school__logo" width="70px">
+                <div class="school__description">
+                    <p class="school__name">DAEJEAN UNIVERSITY</p>
+                    <p class="school__period">2019 March - Until now</p>
+                </div>
+            </div>
+            <!-- 연습용으로 하나 더 -->
+            <div class="school">
+                <img src="imgs/dju.png" alt="dju_logo" class="school__logo" width="70px">
+                <div class="school__description">
+                    <p class="school__name">DAEJEAN UNIVERSITY</p>
+                    <p class="school__period">2019 March - Until now</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+        <div class="section__container">
+            <h1>Skills</h1>
+            <h2>Skills & Attributes</h2>
+            <p>습듭력이 좋아 알려주는 건 빠르게 흡수할 수 있으며, 그게 잘 안되더라도 내것으로 만드려고 노력하는 편입니다. 팀으로 할 때 의견이 있으면 적극적으로 이야기 하는 편이며, 팀원들의 의견 또한 수용하려고 노력합니다.</p>
+            <div class="skillset">
+                <div class="skillset__left">
+                    <h3 class="skillset__title">Skills</h3>
+                    <div class="skill">
+                        <div class="skill_description">
+                            <span>HTML</span>
+                            <span>97%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width: 97%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill_description">
+                            <span>CSS</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill_description">
+                            <span>JavaScript</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skillset__right">
+                    <div class="tools">
+                        <h3 class="skillset__title">Tools</h3>
+                        <ul class="tools__list">
+                            <li><span>Visual Studio Code</span></li>
+                            <li><span>IntelliJ</span></li>
+                            <li><span>Android Studio Code</span></li>
+                            <li><span>Eclipse</span></li>
+                            <li><span>Unity</span></li>
+                        </ul>
+                    </div>
+                    <div class="etc">
+                        <h3 class="skillset__title">Etc</h3>
+                        <ul class="etc__list">
+                            <li><span>Git</span></li>
+                            <li><span>test1</span></li>
+                            <li><span>test2</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work -->
+    <section id="work" class="section">
+        <div class="section__container">
+            <h1>My work</h1>
+            <h3>Projects</h3>
+            <div class="work__categories">
+                <button class="category__btn active">All<span class="category__count">8</span></button>
+                <button class="category__btn">HTML<span class="category__count">3</span></button>
+                <button class="category__btn">CSS<span class="category__count">3</span></button>
+                <button class="category__btn">JavaScript<span class="category__count">2</span></button>
+            </div>
+    
+            <div class="work__projects">
+                <a href="https://github.com/HyeJung-hub/Portfolio" class="project" target="_blank">
+                    <img class="project__img" src="imgs/projects/icon-removebg.png" alt="1">
+                    <div class="project__description">
+                        <h3>설명 Test</h3>
+                        <span>html, css, js를 이용(1)</span>
+                    </div>
+                </a>
+                <a href="https://github.com/HyeJung-hub/Portfolio" class="project" target="_blank">
+                    <img class="project__img" src="imgs/projects/icon-removebg.png" alt="2">
+                    <div class="project__description">
+                        <h3>설명 Test</h3>
+                        <span>html, css, js를 이용(2)</span>
+                    </div>
+                </a>
+                <a href="https://github.com/HyeJung-hub/Portfolio" class="project" target="_blank">
+                    <img class="project__img" src="imgs/projects/icon-removebg.png" alt="3">
+                    <div class="project__description">
+                        <h3>설명 Test</h3>
+                        <span>html, css, js를 이용(3)</span>
+                    </div>
+                </a>
+                <a href="https://github.com/HyeJung-hub/Portfolio" class="project" target="_blank">
+                    <img class="project__img" src="imgs/projects/icon-removebg.png" alt="4">
+                    <div class="project__description">
+                        <h3>설명 Test</h3>
+                        <span>html, css, js를 이용(4)</span>
+                    </div>
+                </a>
+                <a href="https://github.com/HyeJung-hub/Portfolio" class="project" target="_blank">
+                    <img class="project__img" src="imgs/projects/icon-removebg.png" alt="5">
+                    <div class="project__description">
+                        <h3>설명 Test</h3>
+                        <span>html, css, js를 이용(5)</span>
+                    </div>
+                </a>
+                <a href="https://github.com/HyeJung-hub/Portfolio" class="project" target="_blank">
+                    <img class="project__img" src="imgs/projects/icon-removebg.png" alt="6">
+                    <div class="project__description">
+                        <h3>설명 Test</h3>
+                        <span>html, css, js를 이용(6)</span>
+                    </div>
+                </a>
+                <a href="https://github.com/HyeJung-hub/Portfolio" class="project" target="_blank">
+                    <img class="project__img" src="imgs/projects/icon-removebg.png" alt="7">
+                    <div class="project__description">
+                        <h3>설명 Test</h3>
+                        <span>html, css, js를 이용(7)</span>
+                    </div>
+                </a>
+                <a href="https://github.com/HyeJung-hub/Portfolio" class="project" target="_blank">
+                    <img class="project__img" src="imgs/projects/icon-removebg.png" alt="8">
+                    <div class="project__description">
+                        <h3>설명 Test</h3>
+                        <span>html, css, js를 이용(8)</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="section">
+        <div class="section__container">
+            <h1>Testimonials</h1>
+            <h3>See what they say about me</h3>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <img src="imgs/icon-removebg.png" alt="test1" class="testimonial__avatar">
+                    <div class="testimonial__speech-bubble">
+                        <p>testtesttesttesttesttesttesttesttest(여기에는 이 사람이 나의 좋은 점을 이야기 해준 것을 적을 창)</p>
+                        <p class="name"><a href="">HyeJung</a> / DAEJEAN UNIVERSITY</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <div class="testimonial__speech-bubble">
+                        <p>testtesttesttesttesttesttesttesttest(여기에는 이 사람이 나의 좋은 점을 이야기 해준 것을 적을 창)</p>
+                        <p class="name"><a href="">HyeJung</a> / DAEJEAN UNIVERSITY</p>
+                    </div>
+                    <img src="imgs/icon-removebg.png" alt="test1" class="testimonial__avatar">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <h1 class="contact__title">Let's talk</h1>
+        <h2 class="contact__email">hyejung0107_@naver.com</h2>
+        <div class="contact__links">
+            <a href="https://github.com/HyeJung-hub/Portfolio" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <p class="contact__rights">
+            2022 HyeJung Portfolio Project Practice
+        </p>
+    </section>
+</body>
+</html>
