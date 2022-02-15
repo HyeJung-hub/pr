@@ -1,3 +1,4 @@
+// 내 코드
 function solution(str) {
   let answer;
   let compare = [];
